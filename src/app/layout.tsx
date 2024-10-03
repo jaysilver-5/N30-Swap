@@ -6,6 +6,8 @@ import { Root } from "@/components/Root/Root";
 import "@telegram-apps/telegram-ui/dist/styles.css";
 import "normalize.css/normalize.css";
 import "./_assets/globals.css";
+import { Navbar } from "@/components/Navbar/Navbar";
+import { Header } from "@/components/Header/Header";
 
 export const metadata: Metadata = {
   title: "Your Application Title Goes Here",
@@ -16,7 +18,11 @@ export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en">
       <body>
-        <Root>{children}</Root>
+        <Root>
+          <Header />
+          <div className="flex flex-col flex-1">{children}</div>
+          <Navbar />
+        </Root>
       </body>
     </html>
   );
