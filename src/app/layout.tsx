@@ -19,9 +19,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
     <html lang="en">
       <body>
         <Root>
-          <Header />
           <div className="flex flex-col flex-1">{children}</div>
-          <Navbar />
         </Root>
       </body>
     </html>

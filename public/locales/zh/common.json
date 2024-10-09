@@ -1,0 +1,13 @@
+{
+  "swap": "交换",
+  "you_pay": "您支付",
+  "balance": "余额",
+  "you_get": "您获得",
+  "slippage": "滑点{{amount}}",
+  "start_exchange": "开始交易",
+  "stop_exchange": "停止交易",
+  "welcome": "欢迎使用N3OSwap！",
+  "language": "语言",
+  "english": "English",
+  "chinese": "中文"
+}

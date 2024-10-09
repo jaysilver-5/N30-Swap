@@ -1,0 +1,13 @@
+{
+  "swap": "Swap",
+  "you_pay": "You pay",
+  "balance": "Balance",
+  "you_get": "You get",
+  "slippage": "{{amount}} slippage",
+  "start_exchange": "Start Exchange",
+  "stop_exchange": "Stop Exchange",
+  "welcome": "Welcome to N3OSwap!",
+  "language": "Language",
+  "english": "English",
+  "chinese": "中文"
+}
